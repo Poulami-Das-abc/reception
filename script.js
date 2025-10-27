@@ -69,13 +69,13 @@ document.addEventListener("DOMContentLoaded", () => {
       // Redirect based on purpose
       const purpose = formData.purpose.toLowerCase();
       if (purpose === "interview") {
-        window.location.href = "interviewType.html"
+        window.location.href = "index.html"
       } else if (purpose === "training") {
-        window.location.href = "indextraining.html";
+        window.location.href = "index.html";
       } else if (purpose === "bikedelivery") {
-        window.location.href = "vehicle.html";
+        window.location.href = "index.html";
       } else if (purpose === "accessories") {
-        window.location.href = "accessories.html";
+        window.location.href = "index.html";
       } else {
         alert("✅ Reception data saved!");
         form.reset();
@@ -90,4 +90,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
 
